@@ -1,0 +1,40 @@
+/* Box sizing */
+/* html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  } */
+
+/* Other */
+body {
+  background: url(../images/spring.png);
+}
+
+.jumbotron {
+  position: absolute;
+  top: 120px;
+  max-width: 960px;
+  margin: auto;
+}
+
+.footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #3f3f3f;
+  border-top: 8px solid rgb(24, 162, 114);
+  color: aliceblue;
+  text-align: center;
+}
+
+.verticalLine {
+  border-right: 1px solid #d0cecef5;
+}
