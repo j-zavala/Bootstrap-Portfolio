@@ -20,6 +20,8 @@ body {
   top: 120px;
   max-width: 960px;
   margin: auto;
+  background-color: white;
+  border: 2px solid #dddddd;
 }
 
 .footer {
@@ -30,7 +32,7 @@ body {
   height: 60px;
   line-height: 60px;
   background-color: #3f3f3f;
-  border-top: 8px solid rgb(24, 162, 114);
+  border-top: 8px solid #4aaaa5;
   color: aliceblue;
   text-align: center;
 }
@@ -38,3 +40,25 @@ body {
 .verticalLine {
   border-right: 1px solid #d0cecef5;
 }
+
+nav {
+  background-color: white;
+  border: 2px solid #cccccc;
+}
+
+#profile {
+  display: inline-block;
+}
+
+.name {
+  background-color: #4aaaa5;
+}
+
+/* .name {
+  position: absolute;
+  left: 288px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 10px;
+  height: 100%;
+} */
