@@ -58,6 +58,20 @@ h1.navbar-brand {
   padding: 18px;
   }
 
+  .image h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
 /* .name {
   position: absolute;
   left: 288px;
