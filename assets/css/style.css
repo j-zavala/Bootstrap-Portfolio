@@ -46,13 +46,17 @@ nav {
   border: 2px solid #cccccc;
 }
 
-#profile {
-  display: inline-block;
-}
-
 .name {
+  display: inline-block;
   background-color: #4aaaa5;
 }
+
+h1.navbar-brand {
+  position: absolute;
+  left: 285px;
+  background-color: #4aaaa5;
+  padding: 18px;
+  }
 
 /* .name {
   position: absolute;
